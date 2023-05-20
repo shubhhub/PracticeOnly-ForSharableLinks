@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find sum of 2 numbers</title>
+</head>
+<body>
+    <h1>Find sum of 2 numbers</h1>
+    <p>Enter two numbers:</p>
+    <form name="form">
+        <input type="number" name="num1" id="num1" placeholder="Enter number 1">
+        <input type="number" name="num2" id="num2" placeholder="Enter number 2">
+        <input type="button" value="Sum" onclick="findSumHTML(document.getElementById('num1').value, document.getElementById('num2').value)">
+    </form>
+    <div>
+        <p>
+            <span>Sum: </span>
+            <span id="result">PRESS SUM</span>
+        </p>
+        
+    </div>
+    <script src="demo.js"></script>
+</body>
+</html>
